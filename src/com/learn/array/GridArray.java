@@ -1,5 +1,8 @@
 package com.learn.array;
 
+/*
+ * This is the GridArray class
+ */
 public class GridArray {
 
 	public static void main(String[] args) {
@@ -13,7 +16,9 @@ public class GridArray {
 		System.out.println("ARRAY LENGHT ARE :: "+mark.length);
 		int len = mark.length;
 		int len1 = mark[0].length;
-
+/*
+ * looping the array
+ */
 		for( int i = 0 ; i < len ; i++)
 		{
 			for( int j = 0 ; j < len1; j++)
